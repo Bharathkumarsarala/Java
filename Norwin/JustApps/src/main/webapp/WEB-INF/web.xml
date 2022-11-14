@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>JustApps</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FirstGenericServlet</display-name>
+    <servlet-name>FirstGenericServlet</servlet-name>
+    <servlet-class>Pack.FirstGenericServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstGenericServlet</servlet-name>
+    <url-pattern>/FirstGenericServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FirstGenericServlets</display-name>
+    <servlet-name>FirstGenericServlets</servlet-name>
+    <servlet-class>Pack.FirstGenericServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstGenericServlets</servlet-name>
+    <url-pattern>/FirstGenericServlets</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FirstHttpServlet</display-name>
+    <servlet-name>FirstHttpServlet</servlet-name>
+    <servlet-class>Pack.FirstHttpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstHttpServlet</servlet-name>
+    <url-pattern>/FirstHttpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>InsertServlet</display-name>
+    <servlet-name>InsertServlet</servlet-name>
+    <servlet-class>Pack.InsertServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertServlet</servlet-name>
+    <url-pattern>/InsertServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>   
+    <servlet-name>abc</servlet-name>
+    <servlet-class>Pack.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>   
+    <servlet-name>pqr</servlet-name>
+    <servlet-class>Pack.SqServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pqr</servlet-name>
+    <url-pattern>/Sq</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
